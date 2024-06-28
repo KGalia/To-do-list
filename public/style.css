@@ -1,0 +1,83 @@
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 450px;
+    margin: 10px auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: #058080;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #044c4c;
+}
+
+.my-style{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 35px 0 15px 0;
+    color: #056565;
+}
+.my-list {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    grid-gap: 7px;
+}
+
+.checkbox-label {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    accent-color: #129388;
+    border-color: #044c4c;
+    cursor: pointer;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 10px;
+}
+
+.task-input {
+    margin-bottom: 5px;
+    width: 93%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.task-name {
+    margin: 10px 0 10px 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 87% 10%;
+    column-gap: 12px;
+}
+
+.done {
+    cursor: pointer;
+    user-select: none;
+    text-decoration: line-through;
+}
+
